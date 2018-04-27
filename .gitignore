@@ -1,2 +1,6 @@
+##intellij files
 .idea
 spring-rest-service.iml
+
+##java compiled files
+target
