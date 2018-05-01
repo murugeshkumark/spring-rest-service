@@ -5,7 +5,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.ComponentScan;
 
 @SpringBootApplication
-@ComponentScan("com.master4uall.spring.rest")
+@ComponentScan("com.master4uall.spring")
 class Application {
 
     public static void main(String[] args) {
