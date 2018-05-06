@@ -15,4 +15,6 @@ public interface TwitterService {
     void findFriendsLocationByUserId(String id);
 
     int followerCountByName(String userName);
+
+    void findFollowersByUserId(String userName);
 }

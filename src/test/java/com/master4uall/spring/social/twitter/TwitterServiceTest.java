@@ -36,11 +36,16 @@ public class TwitterServiceTest {
 
     @Test
     public void findFollowerLocationByUserId() {
-        service.findFollowerLocationByUserId("narendramodi");
+        service.findFollowerLocationByUserId("master4uall");
     }
 
     @Test
     public void findFriendsLocationByUserId() {
-        service.findFriendsLocationByUserId("narendramodi");
+        service.findFriendsLocationByUserId("master4uall");
+    }
+
+    @Test
+    public void findFollowersByUserId() {
+        service.findFollowersByUserId("OviyaaSweetz");
     }
 }
