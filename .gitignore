@@ -4,3 +4,6 @@ spring-rest-service.iml
 
 ##java compiled files
 target
+
+##cert files
+*.jks
